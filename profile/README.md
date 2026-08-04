@@ -9,7 +9,7 @@ A movie trivia game to create the longest chain possible of connected actors and
 | `movieclash-infra` | Docker, Postgres, Caddy | Shared database, network, and reverse proxy |
 | `movieclash-import` | Go | One-shot job, imports movie and actor data into Postgres |
 | `movieclash-api` | Go, Postgres | Owns the schema/migrations, serves the API |
-| `movieclash-web` | Laravel | Web app, calls `movieclash-api` |
+| `movieclash-web` | Vue | Web app, calls `movieclash-api` |
 | `movieclash-mobile` | React Native | App, calls `movieclash-api` over the public internet |
 
 ## How it links
