@@ -1,4 +1,4 @@
-# Movie Clash
+# CineThread
 
 A movie trivia game to create the longest chain possible of connected actors and movies.
 
